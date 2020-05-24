@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+canvas{
+    outline: 2px solid ;
+}
+.root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+button {
+    width: 150px;
+    margin: 5px 0 10px 0 ;
+}
+textarea{
+    width: 70vw;
+}
