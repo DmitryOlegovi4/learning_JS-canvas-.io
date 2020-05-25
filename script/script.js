@@ -26,13 +26,6 @@ btnCopy.addEventListener('click', function () {
     window.getSelection().removeAllRanges();
 });
 
-// сравнение объёктов прохождением по массиву
-// function comparisonArr (arr1, arr2){
-//     for (let i = 0, i>=arr1.length, i++){
-//
-//     }
-// }
-
 
 //процесс отрисовки
 let myArr = [{"x":0, "y":0}, {"x":40, "y":-10},{"x":50, "y":-50},{"x":60, "y":-10},{"x":100, "y":0},{"x":60, "y":10},{"x":50, "y":50},{"x":40, "y":10},{"x":0, "y":0}];
@@ -50,7 +43,7 @@ function draw (event) {
         // овал лица
         ctx.fillStyle = "#ffc600";
         ctx.beginPath();
-        ctx.scale(160 / 180, 1);
+        // ctx.scale(160 / 180, 1);
         ctx.arc(350+changeX, 250+changeY, 180, 0, Math.PI * 2);
         ctx.restore();
         ctx.closePath();
